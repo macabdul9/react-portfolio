@@ -1,11 +1,15 @@
-import React from 'react';
-import Container from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
+import React, { Component } from 'react'
 
-
-export const Layout = (props) => {
-    return (
-        <Container>
-            {props.children}
-        </Container>
-    )
+export class Layout extends Component {
+    render() {
+        return (
+            <Container>
+                {this.props.children}
+            </Container>
+        )
+    }
 }
+
+export default Layout
+
