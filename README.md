@@ -1,6 +1,6 @@
 
 # view
-![screenshot](src/assets/screenshot.png)
+![screenshot](screenshot.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
